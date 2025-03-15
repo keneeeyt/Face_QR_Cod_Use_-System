@@ -209,10 +209,12 @@ export default function RegisterPage() {
             <>
               <video
                 ref={videoRef}
-                autoPlay
                 className="w-full h-auto"
                 width={640}
                 height={480}
+                autoPlay
+                playsInline
+                muted
               />
               <canvas
                 ref={canvasRef}
